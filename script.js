@@ -94,7 +94,7 @@ const cardsValues = {
     "Q": 10,
     "K": 10
 };
-const card_back_path = "images/card-back.png";
+const card_back_path = "Images/card-back.png";
 function checkCard(card) {
     card = (card.value !== undefined) ? String(card.value) : String(card);
     return cardsValues[card];
